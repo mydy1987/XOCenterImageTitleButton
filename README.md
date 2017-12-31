@@ -61,6 +61,7 @@ btn.imageViewAlphaForHighlightedState = 0.5 // 设置按钮按下时图片的透
 # XOCenterImageTitleButton
 
 This is a button that makes imageView and titleLabel horizontally center.
+
 ![eg](https://github.com/mydy1987/XOCenterImageTitleButton/blob/master/screen.png)
 
 ## Requirements
