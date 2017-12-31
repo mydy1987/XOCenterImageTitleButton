@@ -26,7 +26,7 @@ open class XOCenterImageTitleButton: UIButton {
             }
         }
         set {
-            _imageViewWidth = imageViewWidth
+            _imageViewWidth = newValue
         }
     }
     
@@ -41,7 +41,7 @@ open class XOCenterImageTitleButton: UIButton {
             }
         }
         set {
-            _imageViewHeight = imageViewHeight
+            _imageViewHeight = newValue
         }
     }
     
@@ -58,7 +58,7 @@ open class XOCenterImageTitleButton: UIButton {
             }
         }
         set {
-            _titleLabelWidth = titleLabelWidth
+            _titleLabelWidth = newValue
         }
     }
     // titleLabel的高度（默认是按钮的1/3高）
@@ -72,7 +72,7 @@ open class XOCenterImageTitleButton: UIButton {
             }
         }
         set {
-            _titleLabelHeight = titleLabelHeight
+            _titleLabelHeight = newValue
         }
     }
     

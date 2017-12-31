@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let btn = XOCenterImageTitleButton.init(frame: CGRect.init(x: 170, y: 200, width: 100, height: 100))
+        let btn = XOCenterImageTitleButton.init(frame: CGRect.init(x: 170, y: 200, width: 100, height: 150))
         self.view.addSubview(btn)
         
         btn.setImage(UIImage.init(named: "icon"), for: .normal)
@@ -25,16 +25,16 @@ class ViewController: UIViewController {
         
         btn.imageViewTopSpaceToButton = 10 // default is 0
         btn.imageViewWidth = 50 // default is equal to the width of the button
-        btn.imageViewHeight = 50 // default is equal to  2/3 of the height of the button
+        btn.imageViewHeight = 80 // default is equal to  2/3 of the height of the button
         
         btn.titleLabelTopSpaceToImageView = 10 // default is 0
         btn.titleLabelWidth = 100 // default is equal to the width of the button
-        btn.titleLabelHeight = 20 // default is equal to  1/3 of the height of the button
+        btn.titleLabelHeight = 50 // default is equal to  1/3 of the height of the button
         
-        btn.backgroundColorForHighlightedState = .blue
+        btn.backgroundColorForHighlightedState = .lightGray
         btn.imageViewAlphaForHighlightedState = 0.5
-        
-        
+        btn.layer.borderColor = UIColor.lightGray.cgColor
+        btn.layer.borderWidth = 0.5
     }
     
     override func didReceiveMemoryWarning() {
