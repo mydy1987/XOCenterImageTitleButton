@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'XOCenterImageTitleButton'
-s.version = '1.0.1'
+s.version = '1.0.2'
 s.license = 'MIT'
 s.summary = 'An center image title button on iOS.'
 s.homepage = 'https://github.com/mydy1987/XOCenterImageTitleButton'
