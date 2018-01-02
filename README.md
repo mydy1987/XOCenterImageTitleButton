@@ -32,11 +32,11 @@ btn.setTitle("title", for: .normal)
 
 ##### ・用 Storyboard 或者 XIB
 在StoryBoard或者XIB中放入一个UIButton,把Class设置为 `XOCenterImageTitleButton`
-![via Storyboard](https://github.com/mydy1987/XOCenterImageTitleButton/blob/master/class.png)
-
 
 
 ## 自定义（主要是设置图片与文字的位置，大小）
+
+如果按钮的title文字不是很长，不用弄成多行，图片大小也是标准的，是不用写下面的代码的，因为图片默认是按钮的2/3高度，文字是按钮的1/3高度，宽度都与按钮同宽，按钮设置好title，image就已经是居中的按钮了。顶多设置一下titleLabel与imageView的间距，这个值是可以为负值的。
 
 ##### ・用代码
 ```swift
@@ -55,7 +55,6 @@ btn.imageViewAlphaForHighlightedState = 0.5 // 设置按钮按下时图片的透
 ##### ・用 Storyboard 或者 XIB
 在面板里，可以设置这6个属性，实现对imageView titleLabel的位置和大小的控制，但无论怎么设置，imageView和titleLabel都是水平居中的
 ![via Storyboard](https://github.com/mydy1987/XOCenterImageTitleButton/blob/master/xib.png)
-
 
 
 # XOCenterImageTitleButton
@@ -92,7 +91,6 @@ btn.setTitle("title", for: .normal)
 
 ##### ・By using Storyboard or XIB
 Add Button object and set Custom Class `XOCenterImageTitleButton`  
-![via Storyboard](https://github.com/mydy1987/XOCenterImageTitleButton/blob/master/class.png)
 
 
 
